@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 觀測站</title>
+<style>
+  body { font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; margin: 0; background: #f5f2ea; color: #222; }
+  header { background: #1f3a68; color: #fff; padding: 24px; }
+  header h1 { margin: 0; font-size: 28px; }
+  main { max-width: 800px; margin: 0 auto; padding: 24px; }
+  .notice { background: #fff; border-left: 6px solid #f2b632; padding: 16px; }
+  footer { text-align: center; color: #777; padding: 24px; font-size: 14px; }
+  #toTop { position: fixed; right: 16px; bottom: 16px; padding: 8px 12px; border: 0; border-radius: 6px; background: #1f3a68; color: #fff; cursor: pointer; }
+</style>
+</head>
+<body>
+<header>
+  <h1>AI 觀測站 AI Watch</h1>
+  <p>黑熊老師的 AI 工具實測頻道</p>
+</header>
+<main>
+  <div class="notice">
+    <h2>網站建置中</h2>
+    <p>新的影片介紹頁準備中，敬請期待。</p>
+  </div>
+</main>
+<footer>© AI 觀測站</footer>
+<!-- 既有功能：回到頂端按鈕（第一關要求「保留既有可用功能」） -->
+<button id="toTop" type="button">回到頂端</button>
+<script>
+  document.getElementById('toTop').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+</body>
+</html>
